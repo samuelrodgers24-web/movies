@@ -1,0 +1,457 @@
+movie	42	2013
+director	Helgeland, Brian	42	2013
+actress	Moyé, Denise	42	2013	Older Woman
+actress	Metzger, Janet	42	2013	Jane Ann
+actress	Michaell, Monnae	42	2013	Mallie
+actress	Tylor, Jud	42	2013	Laraine Day
+actress	Sandy, Zarha	42	2013	Bowman's Cafe
+actress	Foreman, Karole	42	2013	Duff Harris
+actress	Griffis, Rhoda	42	2013	Miss Bishop
+actress	Jakle, Kelley	42	2013	Alice
+actress	Beharie, Nicole	42	2013	Rachel Robinson
+actress	Boothe, Cherise	42	2013	Ed's Mother
+actor	Large, Luke	42	2013	Baseball Player
+actor	Lauderdale, Brian	42	2013	Baseball Player
+actor	Law, Keith	42	2013	Baseball Player
+actor	Linklater, Hamish	42	2013	Ralph Branca
+actor	Loderhose, Ben	42	2013	Baseball Player
+actor	Luken, Jesse	42	2013	Eddie Stanky
+actor	Mackenzie, Peter	42	2013	Happy Chandler
+actor	McBee, Mitchell	42	2013	Baseball Player
+actor	McGinley, John C.	42	2013	Red Barber
+actor	Meloni, Christopher	42	2013	Leo Durocher
+actor	Mengini, Dan	42	2013	Spectator One
+actor	Merriman, Ryan	42	2013	Dixie Walker
+actor	Miller, Gary	42	2013	Umpire Five
+actor	Moore, Kirklan	42	2013	Baseball Player
+actor	Mullins, Andrew C.	42	2013	Umpire Three
+actor	Nellist, Marc	42	2013	Baseball Player
+actor	Nitkowski, C.J.	42	2013	Dutch Leonard
+actor	O'Brien, Clint	42	2013	Hugh Casey
+actor	Paul, Andrew	42	2013	Baseball Player
+actor	Pesi, Gino Anthony	42	2013	Joe Garagiola
+actor	Phillips, Derek	42	2013	Bobby Bragan
+actor	Pickens Jr., James	42	2013	Mr. Brock
+actor	Pinkston, Friedel	42	2013	Birmingham Catcher
+actor	Rackley, James	42	2013	Phillie One
+actor	Radcliff, Darren	42	2013	Baseball Player
+actor	Suttle, Barry	42	2013	Roosevelt Home Umpire
+actor	Sweeney, David	42	2013	Fan Two
+actor	Tavernaro, Richard	42	2013	Deland Umpire
+actor	Taylor, Jeremy Ray	42	2013	Boy
+actor	Thoms, David	42	2013	Enos Slaughter
+actor	Tudyk, Alan	42	2013	Ben Chapman
+actor	Vinson, Danny	42	2013	Eddie Dyer
+actor	Walker, Jackson	42	2013	Jimmy Powers
+actor	Willingham, Justin	42	2013	Baseball Player
+actor	Wilson, Todd	42	2013	Reporter Four
+actor	Roberts, Andrew B.	42	2013	Ball One Umpire
+actor	Ruehling, Jamie	42	2013	Spider Jorgensen
+actor	Sanders, Blake	42	2013	Gene Hermanski
+actor	Sawyer, Danny	42	2013	Baseball Player
+actor	Sharrock, Jake	42	2013	Baseball Player
+actor	Smith, Jayson Warner	42	2013	White Gas Station Attendant
+actor	Spears, Dennis A.	42	2013	Umpire Four
+actor	Stewart, Jack	42	2013	Baseball Player
+actor	Farb, Aaron	42	2013	Phillie Two
+actor	Fenlon, Daniel	42	2013	Babe Hamburger
+actor	Finn, Tobias Michael	42	2013	Panamanian Kid
+actor	Flaman, William	42	2013	Cracker
+actor	Ford, Harrison	42	2013	Branch Rickey
+actor	Fowler, Barry	42	2013	Baseball Player
+actor	Friedman, Henry	42	2013	Freckles
+actor	Allen, Tucker	42	2013	Baseball Player
+actor	Beam, Chance	42	2013	Baseball Player
+actor	Beyer, Brad	42	2013	Kirby Higbe
+actor	Black, Lucas	42	2013	Pee Wee Reese
+actor	Blinder, Ari	42	2013	Photographer
+actor	Boseman, Chadwick	42	2013	Jackie Robinson
+actor	Brooks, Matthew	42	2013	Baseball Player
+actor	Brown, Dusan	42	2013	Ed Charles
+actor	Callaway, Scott	42	2013	Andy Seminick
+actor	Cannon, Chad	42	2013	Baseball Player
+actor	Capallo, Tom	42	2013	Baseball Player
+actor	Chancey, Nate	42	2013	Baseball Player
+actor	Clark, Matt	42	2013	Luther
+actor	Clowdus, Hunter	42	2013	Dodger Bat Boy
+actor	Cole, Michael H.	42	2013	Another Reporter
+actor	Coleman, Jimmie L.	42	2013	Negro League Umpire
+actor	Cook, Kenny	42	2013	Fan One
+actor	Covington, Maury	42	2013	Policeman
+actor	Criscuolo, Lou	42	2013	Reporter One
+actor	Cullen, Brett	42	2013	Clay Hopper
+actor	Cyprysiak, Kyle	42	2013	Baseball Player
+actor	Denney, Brett	42	2013	Baseball Player
+actor	Gail, Max	42	2013	Burt Shotton
+actor	Ginther, Andrew	42	2013	Baseball Player
+actor	Goolsby, Anthony S.	42	2013	Monarch Batter
+actor	Gowan, Marc	42	2013	Doctor
+actor	Griffin, Dax	42	2013	Racist City Island Fan
+actor	Grimes Jr., Ercell A.	42	2013	Shouting Fan
+actor	Hand, Linc	42	2013	Fritz Ostermueller
+actor	Hansen, Holden	42	2013	Freckle's Dad
+actor	Harelik, Mark	42	2013	Herb Pennock
+actor	Harvey, Christopher	42	2013	Bus Driver
+actor	Hazen, Jeremy	42	2013	Baseball Player
+actor	Helgeland, Thomas	42	2013	Everett McCooey
+actor	Henegar, Chris	42	2013	Baseball Player
+actor	Hester, Austin	42	2013	Baseball Player
+actor	Hickey, Wayne	42	2013	Umpire Two
+actor	Hicks, Steve	42	2013	Umpire One
+actor	Hill, Matthew	42	2013	Baseball Player
+actor	Holland, André	42	2013	Wendell Smith
+actor	Holliday, Jamey	42	2013	Pete Reiser
+actor	Houser, Dwight	42	2013	City Island Umpire
+actor	Howard, Daniel	42	2013	Baseball Player
+actor	Hubbard, Matthew	42	2013	Baseball Player
+actor	Hughes, Ross	42	2013	Reporter Two
+actor	Huss, Toby	42	2013	Clyde Sukeforth
+actor	Inscoe, Joe	42	2013	Bob Cooke
+actor	Johnson, Chad R	42	2013	Baseball Player
+actor	Jurasik, Peter	42	2013	Hotel Manager
+actor	Kersey, Brandon	42	2013	Baseball Player
+actor	Knezevich, Joe	42	2013	Reporter Three
+actor	Knight, Johnny	42	2013	Carl Furillo
+actor	Knight, T.R.	42	2013	Harold Parrott
+actor	Kohler, Jon	42	2013	Spectator Two
+movie	A Bronx Tale	1993
+director	De Niro, Robert	A Bronx Tale	1993
+actress	Narducci, Kathrine	A Bronx Tale	1993	Rosina
+actress	Palminteri, Gianna	A Bronx Tale	1993	Tina
+actress	Lalicata, Linda	A Bronx Tale	1993	Chez Bippy Customer
+actress	von Arx, Nina	A Bronx Tale	1993	Rachel
+actress	Hicks, Taral	A Bronx Tale	1993	Jane
+actress	Abassi, Elizabeth	A Bronx Tale	1993	Lady in Window
+actress	Bernardini, Ida	A Bronx Tale	1993	Fish Store Customer
+actress	Brooks, Kacy	A Bronx Tale	1993	Doo Wop Group (School)
+actress	Degrass, Emily	A Bronx Tale	1993	Chez Bippy Customer
+actor	Laham, Joe	A Bronx Tale	1993	Doo Wop Group (Street)
+actor	Lange, Alan	A Bronx Tale	1993	Doo Wop Group (Street)
+actor	Lederman, Larry	A Bronx Tale	1993	Racetrack Announcer
+actor	Lombardozzi, Domenick	A Bronx Tale	1993	Nicky Zero
+actor	Matra, Rocco 'Girffe'	A Bronx Tale	1993	Soldier
+actor	Meighan, Jason	A Bronx Tale	1993	Doo Wop Group (School)
+actor	Migliore, Richard	A Bronx Tale	1993	Jockey
+actor	Montanaro, Eddie	A Bronx Tale	1993	Eddie Mush
+actor	Morigi, Mike	A Bronx Tale	1993	Chez Bippy Customer
+actor	Motts, Johnny	A Bronx Tale	1993	Chez Bippy Customer
+actor	Napolitano, Ralph	A Bronx Tale	1993	Gino
+actor	Palminteri, Chazz	A Bronx Tale	1993	Sonny
+actor	Parente, Rocco	A Bronx Tale	1993	Driver (Hey Marie!)
+actor	Pastore, Garry	A Bronx Tale	1993	Chez Bippy Customer
+actor	Pendleton, Steve	A Bronx Tale	1993	Satan's Messengers
+actor	Perri, Paul	A Bronx Tale	1993	Crazy Mario (Age 9)
+actor	Pesci, Joe	A Bronx Tale	1993	Carmine
+actor	Pietrangolare, Frank	A Bronx Tale	1993	Danny K.O.
+actor	Ranieri, Richie	A Bronx Tale	1993	Bodyguard
+actor	Tanuzzo Jr., John	A Bronx Tale	1993	Satan's Messengers
+actor	Thomas, Rhaman	A Bronx Tale	1993	Doo Wop Group (School)
+actor	Vacaro, Pat	A Bronx Tale	1993	Capo
+actor	Vanaria, Louis	A Bronx Tale	1993	Crazy Mario (Age 17)
+actor	Velazquez, Johnny	A Bronx Tale	1993	Jockey
+actor	Wahhab, Ali A.	A Bronx Tale	1993	Angry Neighbor
+actor	Webber, Demond	A Bronx Tale	1993	Doo Wop Group (School)
+actor	Rocchio, Dominick	A Bronx Tale	1993	Ralphie (Age 17)
+actor	Salerno, Dave	A Bronx Tale	1993	Frankie Coffeecake
+actor	Sauchelli Jr., Alfred	A Bronx Tale	1993	Bobby Bars
+actor	Simmons, Derrick	A Bronx Tale	1993	Angry Neighbor
+actor	Ekoku, A.J.	A Bronx Tale	1993	A. J.
+actor	Etergineoso, Anthony	A Bronx Tale	1993	Doo Wop Group (Street)
+actor	Etergineoso, Louis	A Bronx Tale	1993	Doo Wop Group (Street)
+actor	Anannlin, Macky	A Bronx Tale	1993	Chez Bippy Customer
+actor	Antley, Chris	A Bronx Tale	1993	Jockey
+actor	Attanasio, Albert	A Bronx Tale	1993	Capo
+actor	Bailey, Sobe	A Bronx Tale	1993	Willy
+actor	Batiste, David	A Bronx Tale	1993	Angry Neighbor
+actor	Beansie	A Bronx Tale	1993	Chez Bippy Customer
+actor	Black, Joe	A Bronx Tale	1993	Murdered Man
+actor	Blair, Nicky	A Bronx Tale	1993	Jerry
+actor	Bonge, Steve	A Bronx Tale	1993	Satan's Messengers
+actor	Borriello, Patrick	A Bronx Tale	1993	Slick (Age 9)
+actor	Brancato, Lillo	A Bronx Tale	1993	Calogero (Age 17)
+actor	Cafariella, Mark	A Bronx Tale	1993	Satan's Messengers
+actor	Calvacca Jr., Joe	A Bronx Tale	1993	Doo Wop Group (Street)
+actor	Capra, Francis	A Bronx Tale	1993	Calogero (Age 9)
+actor	Caserta Jr., Clem	A Bronx Tale	1993	Pizza Man
+actor	Caserta Jr., Frank	A Bronx Tale	1993	Soldier
+actor	Caserta Sr., Frank	A Bronx Tale	1993	Old Gee
+actor	Caserta, Clem	A Bronx Tale	1993	Jimmy Whispers
+actor	Cestaro, Sal	A Bronx Tale	1993	Coffeemaker
+actor	Conti, Frank	A Bronx Tale	1993	Fish Store Owner
+actor	Cordeiro, Tony	A Bronx Tale	1993	Jockey
+actor	Corozzo, Anthony	A Bronx Tale	1993	Chez Bippy Customer
+actor	Cruguet, Jean	A Bronx Tale	1993	Jockey
+actor	D'Andrea, Robert	A Bronx Tale	1993	Tony Toupee
+actor	D'Angelo, Luigi	A Bronx Tale	1993	Aldo (Age 17)
+actor	D'Onofrio, Joseph	A Bronx Tale	1993	Slick (Age 17)
+actor	De Niro, Robert	A Bronx Tale	1993	Lorenzo
+actor	DeDomenico, Richard	A Bronx Tale	1993	Priest
+actor	Derian, Ed	A Bronx Tale	1993	Fight Announcer
+actor	Domey, Greg	A Bronx Tale	1993	Satan's Messengers
+actor	Fischer, Fred	A Bronx Tale	1993	JoJo the Whale
+actor	Foglia, Phil	A Bronx Tale	1993	Detective Vella
+actor	Ford, Thomas A.	A Bronx Tale	1993	Phil the Peddler
+actor	Garbarino, Philip	A Bronx Tale	1993	Sonny's Killer
+actor	Garcia, Butch	A Bronx Tale	1993	Satan's Messengers
+actor	Genovino, Max	A Bronx Tale	1993	Louie Dumps
+actor	Gioia, Louis	A Bronx Tale	1993	Last Rites Priest
+actor	Graell, Antonio	A Bronx Tale	1993	Jockey
+actor	Grant, Darell	A Bronx Tale	1993	Doo Wop Group (School)
+actor	Guardino, Larry	A Bronx Tale	1993	Bartender
+actor	Hurst, Sonny	A Bronx Tale	1993	Satan's Messengers
+actor	Kendall, Steve	A Bronx Tale	1993	Red Beard
+actor	Kolpan, Mitch	A Bronx Tale	1993	Detective Belsik
+movie	A League of Their Own	1992
+director	Marshall, Penny	A League of Their Own	1992
+actress	Niemeyer, Shelly	A League of Their Own	1992	Additional Player
+actress	O'Donnell, Rosie	A League of Their Own	1992	Doris Murphy - 3rd Base
+actress	Pelton, Patti	A League of Their Own	1992	Marbleann Wilkenson - 2nd Base
+actress	Petty, Lori	A League of Their Own	1992	Kit Keller
+actress	Pilavin, Barbara	A League of Their Own	1992	Older Helen
+actress	Pounds-Taylor, Connie	A League of Their Own	1992	Connie Calhoun - Outfield
+actress	Ramsay, Anne	A League of Their Own	1992	Helen Haley - 1st Base
+actress	Leoni, Téa	A League of Their Own	1992	Racine 1st Base
+actress	Madonna	A League of Their Own	1992	Mae Mordabito
+actress	Marshall, Kathleen	A League of Their Own	1992	'Mumbles' Brockman - Outfield
+actress	McLin, Eugenia	A League of Their Own	1992	Older Ellen Sue
+actress	Miller, Betty	A League of Their Own	1992	Older Betty
+actress	Szmidt, Sharon	A League of Their Own	1992	Vivian Ernst - 2nd Base
+actress	Walker, Amanda	A League of Their Own	1992	Additional Player
+actress	Watson, Brenda	A League of Their Own	1992	Additional Player
+actress	Weingardt, Ellie	A League of Their Own	1992	Charm School Instructor
+actress	Wilson, Patricia	A League of Their Own	1992	Older Marla
+actress	Reiner, Tracy	A League of Their Own	1992	Betty 'Betty Spaghetti' Horn - Left Field
+actress	Rutherford, Sally	A League of Their Own	1992	Additional Player
+actress	Schmitt, Lita	A League of Their Own	1992	Additional Player
+actress	Schram, Bitty	A League of Their Own	1992	Evelyn Gardner - Right Field
+actress	Simpkins, Kelli	A League of Their Own	1992	Beverly Dixon - Outfield
+actress	Simpson, Freddie	A League of Their Own	1992	Ellen Sue Gotlander - Shortstop/Pitcher
+actress	Dries, Dolores 'Pickles'	A League of Their Own	1992	Lady in Bleachers
+actress	Erwin, Barbara	A League of Their Own	1992	Older Shirley
+actress	Ferrari, Brenda	A League of Their Own	1992	Racine Catcher
+actress	Gretick, Kirsten	A League of Their Own	1992	Additional Player
+actress	Gustaferro, Stacey	A League of Their Own	1992	Additional Player
+actress	Hand, Lisa	A League of Their Own	1992	Additional Player
+actress	Hodgen, Joette	A League of Their Own	1992	Opera Singer
+actress	Johnson, Vera	A League of Their Own	1992	Older Doris
+actress	Jones, Cheryl	A League of Their Own	1992	Additional Player
+actress	Jones, Janet	A League of Their Own	1992	Racine Pitcher
+actress	Knight, Robin	A League of Their Own	1992	'Beans' Babbitt - Shortstop
+actress	Koch, Tonya Gilles	A League of Their Own	1992	Additional Player
+actress	Adlard, Shelly	A League of Their Own	1992	Additional Player
+actress	Allen, Rae	A League of Their Own	1992	Ma Keller
+actress	Anderson, Eunice	A League of Their Own	1992	Older Mae
+actress	Baron, Blaire	A League of Their Own	1992	Margaret
+actress	Brailsford, Pauline	A League of Their Own	1992	Miss Cuthbert
+actress	Burkovich, Shirley	A League of Their Own	1992	Older Alice
+actress	Buse, Vickie	A League of Their Own	1992	Additional Player
+actress	Butler, Kathleen	A League of Their Own	1992	Older Kit
+actress	Carr, K.C.	A League of Their Own	1992	Additional Player
+actress	Cartwright, Lynn	A League of Their Own	1992	Older Dottie
+actress	Cavanagh, Megan	A League of Their Own	1992	Marla Hooch - 2nd Base
+actress	Coleman, Renée	A League of Their Own	1992	Alice Gaspers - Left Field/Center Field
+actress	Collins, Larissa	A League of Their Own	1992	Charm School Assistant
+actress	Cronin, Laurel	A League of Their Own	1992	Maida Gillespie
+actress	Croteau, Julie	A League of Their Own	1992	Additional Player
+actress	Cusack, Ann	A League of Their Own	1992	Shirley Baker - Left Field
+actress	Davis, Geena	A League of Their Own	1992	Dottie Hinson
+actor	Krowka, Joe	A League of Their Own	1992	Heckler
+actor	Lovitz, Jon	A League of Their Own	1992	Ernie Capadino
+actor	Mailer, Stephen	A League of Their Own	1992	Kit's Guy in Bar
+actor	Marshall, Garry	A League of Their Own	1992	Walter Harvey
+actor	Mekka, Eddie	A League of Their Own	1992	Mae's Guy in Bar
+actor	Olsen, Ryan	A League of Their Own	1992	Dollbody Kid
+actor	Pullman, Bill	A League of Their Own	1992	Bob Hinson
+actor	Tarleton, Neezer	A League of Their Own	1992	Neezer Dalton - Outfield
+actor	Wilder, Alan	A League of Their Own	1992	Nelson
+actor	Sandel Jr., Wantland L.	A League of Their Own	1992	Doctor
+actor	Scheller, Justin	A League of Their Own	1992	Stilwell Gardner
+actor	Shearer, Harry	A League of Their Own	1992	Newsreel Announcer
+actor	Slotnick, Joey	A League of Their Own	1992	Doris' Fan #2
+actor	Sporleder, Gregory	A League of Their Own	1992	Mitch Swaley
+actor	Stanton, Robert	A League of Their Own	1992	Western Union Man
+actor	Strathairn, David	A League of Their Own	1992	Ira Lowenstein
+actor	Einhorn, Marvin	A League of Their Own	1992	Older Ira
+actor	Feagley, Stephen	A League of Their Own	1992	Autograph Kid #2
+actor	Flannery, Brian	A League of Their Own	1992	Autograph Kid #1
+actor	Franks, David	A League of Their Own	1992	Vacuum Salesman
+actor	Gleeson, Brian Boru	A League of Their Own	1992	Bobby
+actor	Haley, Michael	A League of Their Own	1992	Empathetic Umpire
+actor	Hanks, Tom	A League of Their Own	1992	Jimmy Dugan
+actor	Blakeslee, Douglas	A League of Their Own	1992	Doris' Fan #1
+actor	Holton, Mark	A League of Their Own	1992	Older Stilwell
+actor	Howell, Ryan	A League of Their Own	1992	Jeffrey
+actor	Chapman, Raymond L.	A League of Their Own	1992	Ticket Scalper
+actor	Jones, Eddie	A League of Their Own	1992	Dave Hooch
+actor	Davis, Don S.	A League of Their Own	1992	Charlie Collins, Racine Coach
+movie	A Million Ways to Die in the West	2014
+director	MacFarlane, Seth	A Million Ways to Die in the West	2014
+actress	Peterson, Tessa	A Million Ways to Die in the West	2014	Barn Dancer
+actress	Rachel, Allyn	A Million Ways to Die in the West	2014	Wild Girl
+actress	Medina, Kristy	A Million Ways to Die in the West	2014	Barn Dancer
+actress	Talley, Maura	A Million Ways to Die in the West	2014	Barn Dancer
+actress	Theron, Charlize	A Million Ways to Die in the West	2014	Anna
+actress	White, Kimberly	A Million Ways to Die in the West	2014	Barn Dancer
+actress	Ritter, Tracy	A Million Ways to Die in the West	2014	Barn Dancer
+actress	Ruggiero, Kelly	A Million Ways to Die in the West	2014	Barn Dancer
+actress	Seyfried, Amanda	A Million Ways to Die in the West	2014	Louise
+actress	Shouse, Belle	A Million Ways to Die in the West	2014	12 Year Old Girl
+actress	Shu, Catherine	A Million Ways to Die in the West	2014	Chinese Girl
+actress	Silverman, Sarah	A Million Ways to Die in the West	2014	Ruth
+actress	Dyke, Stephanie	A Million Ways to Die in the West	2014	Barn Dancer
+actress	Effron, Jean	A Million Ways to Die in the West	2014	Elsie Stark
+actress	Fine, Emily	A Million Ways to Die in the West	2014	Barn Dancer
+actress	Armgardt, Kayla	A Million Ways to Die in the West	2014	Barn Dancer
+actress	Baker-Dillingham, Susan	A Million Ways to Die in the West	2014	Barn Dancer
+actress	Borstein, Alex	A Million Ways to Die in the West	2014	Millie
+actress	Carrasco, Ashlee	A Million Ways to Die in the West	2014	Barn Dancer
+actress	Carter, Claire Mackenzie	A Million Ways to Die in the West	2014	Other Fair Girl
+actress	Cash, Lydia	A Million Ways to Die in the West	2014	Barn Dancer
+actress	Cates, Challen	A Million Ways to Die in the West	2014	Female Passenger
+actor	Kuhl, Keith	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Lawson, Marty	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Linn, Rex	A Million Ways to Die in the West	2014	Sheriff/Narrator
+actor	Lloyd, Christopher	A Million Ways to Die in the West	2014	Doc Brown
+actor	MacFarlane, Seth	A Million Ways to Die in the West	2014	Albert
+actor	Maes, Jacob	A Million Ways to Die in the West	2014	Barn Dancer
+actor	McGregor, Ewan	A Million Ways to Die in the West	2014	Cowboy at Fair
+actor	McPherson, Aaron	A Million Ways to Die in the West	2014	Ben
+actor	Means, Tatanka	A Million Ways to Die in the West	2014	Other Apache
+actor	Miller, Mike	A Million Ways to Die in the West	2014	Vendor
+actor	Murray, Kit	A Million Ways to Die in the West	2014	Barn Dance Band
+actor	Nava, Mark	A Million Ways to Die in the West	2014	Barn Dance Band
+actor	Neeson, Liam	A Million Ways to Die in the West	2014	Clinch
+actor	O'Gleby, Sarah	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Paschich, Kelsey	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Patterson, Jay	A Million Ways to Die in the West	2014	Doctor Harper
+actor	Pirozzi, Andrew	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Prattes, Jonathan	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Studi, Wes	A Million Ways to Die in the West	2014	Cochise
+actor	Sulkin, Alec	A Million Ways to Die in the West	2014	Guy at Fair
+actor	Wiggins, Kevin	A Million Ways to Die in the West	2014	Ruth's Cowboy Client
+actor	Williams, Charlie	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Wong, Alex	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Zafarano, Giacomo	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Reche, Vladimir Conde	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Ribisi, Giovanni	A Million Ways to Die in the West	2014	Edward
+actor	Rickaby, Brett	A Million Ways to Die in the West	2014	Charlie Blanche
+actor	Rodriguez, Robbie	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Salazar, Mike A.	A Million Ways to Die in the West	2014	6 Year Old Albert
+actor	Savage, Darren	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Sharpe, Julius	A Million Ways to Die in the West	2014	Dandy #2
+actor	Smith, Chris	A Million Ways to Die in the West	2014	Barn Dance Band
+actor	Spencer, Frank	A Million Ways to Die in the West	2014	Dirty Cowboy
+actor	Stoll, Alex Michael	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Duo, Zoltan	A Million Ways to Die in the West	2014	Barn Dance Band
+actor	Edgar, Allan K.	A Million Ways to Die in the West	2014	Barn Dance Band
+actor	Ericksen, Mark	A Million Ways to Die in the West	2014	Barn Dance Band
+actor	Fletcher, Tait	A Million Ways to Die in the West	2014	Cowboy #1
+actor	Gallacher, Kevin	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Garman, Ralph	A Million Ways to Die in the West	2014	Dan
+actor	Gonzales, Joseph	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Gottfried, Gilbert	A Million Ways to Die in the West	2014	Abraham Lincoln
+actor	Guerra, Dominic	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Guise, Jonathan	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Hagen, Christopher	A Million Ways to Die in the West	2014	George Stark
+actor	Harris, Neil Patrick	A Million Ways to Die in the West	2014	Foy
+actor	Hart, Jimmy	A Million Ways to Die in the West	2014	Photographer
+actor	Haskins, Dennis	A Million Ways to Die in the West	2014	Snake Oil Salesman
+actor	Higgins, John Michael	A Million Ways to Die in the West	2014	Dandy #1
+actor	Hudson, Jeremy	A Million Ways to Die in the West	2014	Barn Dancer
+actor	Jesser, Bob	A Million Ways to Die in the West	2014	Cowboy at Table
+actor	Jones, Evan	A Million Ways to Die in the West	2014	Lewis
+actor	Kenin, Dylan	A Million Ways to Die in the West	2014	Pastor's Son
+actor	Klintworth, Jack	A Million Ways to Die in the West	2014	Barn Dance Band
+actor	Adler, Tom	A Million Ways to Die in the West	2014	Barn Dance Band
+actor	Aylward, John	A Million Ways to Die in the West	2014	Pastor Wilson
+actor	Bailey, Preston	A Million Ways to Die in the West	2014	12 Year Old Albert
+actor	Berryman, Joe	A Million Ways to Die in the West	2014	Teacher
+actor	Brutsche, Ivan	A Million Ways to Die in the West	2014	Angry Cowboy
+actor	Buzzell, Jackamoe	A Million Ways to Die in the West	2014	Other Cowboy
+actor	Byram, Amick	A Million Ways to Die in the West	2014	Marcus Thornton
+actor	Callaghan, Steve	A Million Ways to Die in the West	2014	Waiter
+actor	Carlson, Ardy Brent	A Million Ways to Die in the West	2014	Cowboy Ardy
+actor	Carthy, Gerry	A Million Ways to Die in the West	2014	Barn Dance Band
+actor	Clark, Matt	A Million Ways to Die in the West	2014	Old Prospector
+movie	A Time to Kill	1996
+director	Schumacher, Joel	A Time to Kill	1996
+actress	Omilami, Elizabeth	A Time to Kill	1996	Woman Angry at Klan
+actress	Kyle, Alexandra	A Time to Kill	1996	Hannah Brigance
+actress	Middleton, Lorraine	A Time to Kill	1996	Blonde Woman Juror
+actress	Toyon, Stacy Rae	A Time to Kill	1996	Looney's Wife
+actress	Ritchie, Perry	A Time to Kill	1996	Sarah Hardy
+actress	Rose, Bettina	A Time to Kill	1996	Evelyn (Buckley's Secretary)
+actress	Spencer, Octavia	A Time to Kill	1996	Roark's Nurse
+actress	Stewart, Tonea	A Time to Kill	1996	Gwen Hailey
+actress	Strickland, Stephanie	A Time to Kill	1996	Stephanie (Reporter #1 with Buckley)
+actress	Floyd, Helen E.	A Time to Kill	1996	Waitress at Claude's
+actress	Fricker, Brenda	A Time to Kill	1996	Ethel Twitty
+actress	Gilbreath, Mildred J.	A Time to Kill	1996	Noose's Housekeeper
+actress	Grant, Beth	A Time to Kill	1996	Cora Mae Cobb
+actress	Hendrix, Kim	A Time to Kill	1996	Kim (Reporter #2 with Buckley)
+actress	Hilton, Sherri	A Time to Kill	1996	Reporter #2 with Jake
+actress	Johnson, Linda Calvin	A Time to Kill	1996	Sugar
+actress	Judd, Ashley	A Time to Kill	1996	Carla Brigance
+actress	Julius-Scott, Alice	A Time to Kill	1996	N.A.A.C.P. Woman
+actress	Kelly, Rae'Ven	A Time to Kill	1996	Tonya Hailey
+actress	Koon, Rebecca	A Time to Kill	1996	Dell
+actress	Bullock, Sandra	A Time to Kill	1996	Ellen Roark
+actress	Dixon, Maggie Wade	A Time to Kill	1996	T.V. Anchor
+actress	Dixon-Green, Rosebud	A Time to Kill	1996	Woman at Rally
+actor	Lauren, Greg	A Time to Kill	1996	Taylor
+actor	Lloyd, Devin	A Time to Kill	1996	Willie Hailey
+actor	Loughlin, Terry	A Time to Kill	1996	Jury Foreman
+actor	McConaughey, Matthew	A Time to Kill	1996	Jake Tyler Brigance
+actor	McCullough, Tommy	A Time to Kill	1996	Old Fisherman
+actor	McGoohan, Patrick	A Time to Kill	1996	Judge Omar Noose
+actor	McGrew, LaConte	A Time to Kill	1996	Slim Hailey
+actor	McLaren, Mike	A Time to Kill	1996	Administrator at Whitfield
+actor	Merdis, Thomas	A Time to Kill	1996	Reverend Ollie Agee
+actor	Mitchell, Darrin	A Time to Kill	1996	Skip Hailey
+actor	Monich, Tim	A Time to Kill	1996	Reverend Fink
+actor	Mouton, Benjamin	A Time to Kill	1996	Klan Bomber
+actor	Nelson, Danny	A Time to Kill	1996	Bud Twitty
+actor	Parati, Tim	A Time to Kill	1996	Winston
+actor	Dutton, Charles S.	A Time to Kill	1996	Sheriff Ozzie Walls
+actor	Freeman, Terrance	A Time to Kill	1996	Court Deputy
+actor	Hadary, Jonathan	A Time to Kill	1996	Norman Reinfield
+actor	Hambline, Russell	A Time to Kill	1996	Old Man Bates
+actor	Heald, Anthony	A Time to Kill	1996	Dr. Wilbert Rodeheaver
+actor	Hodges, David U.	A Time to Kill	1996	Bailiff
+actor	Hunt, Jerry	A Time to Kill	1996	John (the Electrical Company Worker)
+actor	Hutchins, Walter L.	A Time to Kill	1996	N.A.A.C.P. Man #2
+actor	Hutchison, Doug	A Time to Kill	1996	James Louis 'Pete' Willard
+actor	Jackson, Samuel L.	A Time to Kill	1996	Carl Lee Hailey
+actor	Jay, Rob	A Time to Kill	1996	Reporter #3 with Buckley
+actor	Jennings, Byron	A Time to Kill	1996	Brent Musgrove
+actor	Johnson, Mark W.	A Time to Kill	1996	Deputy Willie Hastings
+actor	Katt, Nicky	A Time to Kill	1996	Billy Ray Cobb
+actor	Ballou, Howard	A Time to Kill	1996	Reporter #1 with Hastings
+actor	Beamon, Brance H.	A Time to Kill	1996	Noose's Butler
+actor	Bell Jr., Robert R.	A Time to Kill	1996	Fisherman
+actor	Bullen, Joe	A Time to Kill	1996	Joe Frank Perryman
+actor	Cain, Lukas	A Time to Kill	1996	Looney's Son
+actor	Chapman, Robert	A Time to Kill	1996	Young Fisherman
+actor	Cooper, Chris	A Time to Kill	1996	Deputy Dwayne Powell Looney
+actor	Coulter, Steve	A Time to Kill	1996	Klansman
+actor	Crapps, Will	A Time to Kill	1996	Minister
+actor	Crumley Jr., James M.	A Time to Kill	1996	Guardsman Mackenvale
+actor	Dehart, Wayne	A Time to Kill	1996	Claude
+actor	Demers, Todd	A Time to Kill	1996	Reporter #1 with Jake
+actor	Diehl, John	A Time to Kill	1996	Tim Nunley
+actor	Sutherland, Donald	A Time to Kill	1996	Lucien Wilbanks
+actor	Sutherland, Kiefer	A Time to Kill	1996	Freddie Lee Cobb
+actor	Sutton, Patrick	A Time to Kill	1996	Militant Teenager
+actor	Thomas, Leonard L.	A Time to Kill	1996	Man in Lumberyard
+actor	Timbes, Graham	A Time to Kill	1996	Male Juror
+actor	Truly Jr., William	A Time to Kill	1996	N.A.A.C.P. Man #1
+actor	Williams, David Brian	A Time to Kill	1996	Customer at Claude's
+actor	Ritchie, Jim	A Time to Kill	1996	Tom Hardy
+actor	Seneca, Joe	A Time to Kill	1996	Reverend Isaiah Street
+actor	Smith, Kurtwood	A Time to Kill	1996	Stump Sisson
+actor	Spacey, Kevin	A Time to Kill	1996	D.A. Rufus Buckley
+actor	St. Vincent, Ryk	A Time to Kill	1996	Deputy
+actor	Stahl, Andy	A Time to Kill	1996	Reluctant Male Juror
+actor	Stewart, Jackie	A Time to Kill	1996	Fire Chief
+actor	Platt, Oliver	A Time to Kill	1996	Harry Rex Vonner
+actor	Pniewski, Mike	A Time to Kill	1996	Deputy Tatum

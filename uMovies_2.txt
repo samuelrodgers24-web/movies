@@ -1,0 +1,150 @@
+movie	15 Minutes	2001
+director	Herzfeld, John	15 Minutes	2001
+actress	Morgunova, Olga	15 Minutes	2001	Escort Service Woman #2
+actress	Mulqueen, Tracey	15 Minutes	2001	Paramedic #2
+actress	Lopez, Sylvia	15 Minutes	2001	TV Newscaster #1
+actress	Marin, Mindy	15 Minutes	2001	Maggie
+actress	Merced, Macy	15 Minutes	2001	Paramedic #1
+actress	Theron, Charlize	15 Minutes	2001	Rose Hearn
+actress	Vann, Elma	15 Minutes	2001	Escort Service Woman Linda
+actress	Velez-Mitchell, Jane	15 Minutes	2001	TV Newscaster #2
+actress	Ruiz, Lynette	15 Minutes	2001	Composite Artist
+actress	Sauer, Dorit	15 Minutes	2001	Escort Service Woman #3
+actress	Espinoza, Julieta	15 Minutes	2001	Unique's Girlfriend
+actress	Evans, Noelle	15 Minutes	2001	Honey the Hooker
+actress	Farmiga, Vera	15 Minutes	2001	Daphne Handlova
+actress	Gasanova, Irina	15 Minutes	2001	Tamina Karlova
+actress	Greaves, Gail	15 Minutes	2001	Talk Show Wife
+actress	Kalem, Toni	15 Minutes	2001	Woman at Planet Hollywood
+actress	Kanakaredes, Melina	15 Minutes	2001	Nicolette Karas
+actress	Klieman, Rikki	15 Minutes	2001	Daphne's Lawyer
+actress	Barr, Roseanne	15 Minutes	2001	Herself
+actress	Cattrall, Kim	15 Minutes	2001	Cassandra
+actress	Claibourne, Christine	15 Minutes	2001	Maggie's Assistant
+actress	Dobó, Kata	15 Minutes	2001	Redhead at Ludwig's
+actor	Lisi, Joe	15 Minutes	2001	Police Captain
+actor	Maglione, Dominic	15 Minutes	2001	Police Officer #1
+actor	Mashkov, Vladimir	15 Minutes	2001	Milos Karlova
+actor	McCrary, Darius	15 Minutes	2001	Detective Tommy Cullen
+actor	Poulos, George	15 Minutes	2001	Greek Waiter
+actor	Primus, Barry	15 Minutes	2001	Cab Driver
+actor	Taktarov, Oleg	15 Minutes	2001	Oleg Razgul
+actor	Wall, Ron	15 Minutes	2001	Police Officer #2
+actor	Yelchin, Anton	15 Minutes	2001	Boy in Burning Building
+actor	Field, Bobby	15 Minutes	2001	Talk Show Son
+actor	Foster, Bryan	15 Minutes	2001	Hawkins' Cameraman
+actor	Roché, Sebastian	15 Minutes	2001	Ludwig the Hairdresser
+actor	Roden, Karel	15 Minutes	2001	Emil Slovak
+actor	Garcia, Louis F.	15 Minutes	2001	Fire Chief
+actor	Runyan, Tygh	15 Minutes	2001	Stephen Geller
+actor	Garibyan, Haik	15 Minutes	2001	Emigrant
+actor	Grammer, Kelsey	15 Minutes	2001	Robert Hawkins
+actor	Stamboulis, Spero	15 Minutes	2001	Nicolette's Cameraman
+actor	Stanton, William	15 Minutes	2001	Garcia
+actor	Alfieri, Joseph	15 Minutes	2001	Reporter
+actor	Andon, Kurt	15 Minutes	2001	Pizza Man
+actor	Arnett, Peter	15 Minutes	2001	Himself
+actor	Blueian, Barry	15 Minutes	2001	Immigration Supervisor
+actor	Brooks, Avery	15 Minutes	2001	Detective Leon Jackson
+actor	Brown, Lennox	15 Minutes	2001	Lookout Guy
+actor	Burns, Edward	15 Minutes	2001	Fire Marshal Jordy Warsaw
+actor	Bush, Brantley	15 Minutes	2001	Fireman
+actor	Camello, Mike	15 Minutes	2001	Fireman Camello
+actor	Casseus, Gabriel	15 Minutes	2001	Unique
+actor	Cohen, Alan	15 Minutes	2001	Hawkins' Sound Man
+actor	Coster, Ritchie	15 Minutes	2001	News Stand Vendor
+actor	Cutler, Bruce	15 Minutes	2001	Himself
+actor	Dane, Ashton	15 Minutes	2001	Talk Show Father
+actor	Grier, David Alan	15 Minutes	2001	Mugger in Central Park
+actor	Davis, Stephen	15 Minutes	2001	Murphy
+actor	De Niro, Robert	15 Minutes	2001	Detective Eddie Flemming
+actor	Guzman, Jorge H.	15 Minutes	2001	Bouncer at Planet Hollywood
+actor	Dillin, Scott	15 Minutes	2001	Battery Park Policeman
+actor	Handy, James	15 Minutes	2001	Deputy Chief Fire Marshal Declan Duffy
+actor	DiResta, John	15 Minutes	2001	Bobby Korfin
+actor	Herman, Paul	15 Minutes	2001	Detective Paulie
+actor	Khan, Marco	15 Minutes	2001	Emigrant
+movie	1941	1979
+director	Spielberg, Steven	1941	1979
+actress	Molinari, Antoinette	1941	1979	Mrs. Scioli
+actress	Landers, Audrey	1941	1979	USO Girl
+actress	LuPone, Patti	1941	1979	Lydia Hedberg
+actress	Taggart, Rita	1941	1979	Reporter
+actress	Teefy, Maureen	1941	1979	USO Girl
+actress	Williams, Carol Ann	1941	1979	USO Girl
+actress	Williams, Jenny	1941	1979	USO Girl
+actress	Sherman, Kerry	1941	1979	USO Girl
+actress	Sperber, Wendie Jo	1941	1979	Maxine Dexheimer
+actress	Gaines, Marjorie	1941	1979	Anderson Sister
+actress	Gallup, Denise	1941	1979	Twin
+actress	Gallup, Dian	1941	1979	Twin
+actress	Gannen, Barbara	1941	1979	Interceptor Assistant
+actress	Garland, Trish	1941	1979	Anderson Sister
+actress	Gary, Lorraine	1941	1979	Joan Douglas
+actress	Hardin, Diane	1941	1979	Interceptor Assistant
+actress	Kay, Dianne	1941	1979	Betty Douglas
+actress	Allen, Nancy	1941	1979	Donna Stratton
+actress	Backlinie, Susan	1941	1979	Polar Bear Woman
+actress	Benson, Deborah	1941	1979	USO Girl
+actress	Benson, Lucille	1941	1979	Gas Mama (Eloise)
+actress	Culver, Carol	1941	1979	Anderson Sister
+actress	Dooling, Lucinda	1941	1979	Lucinda
+actor	Lander, David L.	1941	1979	Joe
+actor	Landis, John	1941	1979	Mizerany
+actor	Lang, Perry	1941	1979	Dennis DeSoto
+actor	Lee, Christopher	1941	1979	Capt. Wolfgang von Kleinschmidt
+actor	Marias, Mark	1941	1979	Dept. Store Kid
+actor	Matheson, Tim	1941	1979	Capt. Loomis Birkhead
+actor	McKean, Michael	1941	1979	Willy
+actor	McKee, John	1941	1979	Reporter
+actor	McMillan, Ronnie	1941	1979	Winowski
+actor	McNally, Dan	1941	1979	Reporter
+actor	McNamara, J. Patrick	1941	1979	Pvt. DuBois
+actor	McRae, Frank	1941	1979	Pvt. Ogden Johnson Jones
+actor	Mifune, Toshirô	1941	1979	Cmdr. Akiro Mitamura
+actor	Miller, Dick	1941	1979	Officer Miller
+actor	Mitamura, Akio	1941	1979	Ashimoto
+actor	Mond, Steven	1941	1979	Gus Douglas
+actor	Oates, Warren	1941	1979	Col. 'Madman' Maddox
+actor	Olkewicz, Walter	1941	1979	Hinshaw
+actor	Pickens, Slim	1941	1979	Hollis P. Wood
+actor	Flaherty, Joe	1941	1979	Raoul Lipschitz
+actor	Frederickson, Gray	1941	1979	Lt. Bressler
+actor	Frishman, Brian	1941	1979	USO Goon
+actor	Fuller, Samuel	1941	1979	Interceptor Commander
+actor	Gorman, Brad	1941	1979	USO Nerd
+actor	Hamilton, Murray	1941	1979	Claude Crumn
+actor	Hardin, Jerry	1941	1979	Map Man
+actor	Houston, Robert	1941	1979	Maddox's Soldier
+actor	Aykroyd, Dan	1941	1979	Sgt. Frank Tree
+actor	Beagle, E. Hampton	1941	1979	Phone Man
+actor	Beatty, Ned	1941	1979	Ward Douglas
+actor	Belushi, John	1941	1979	Capt. Wild Bill Kelso
+actor	Brian, Jordan	1941	1979	Macey Douglas
+actor	Calfa, Don	1941	1979	Telephone Operator
+actor	Cameron, Dave	1941	1979	Reporter
+actor	Candy, John	1941	1979	Pvt. Foley
+actor	Carenzo, Vito	1941	1979	Vito - Shore Patrol
+actor	Carlton, Mark	1941	1979	Stilwell Aide
+actor	Cervantes, Gary Carlos	1941	1979	Zoot Suiter
+actor	Cloud, Paul	1941	1979	Stilwell Aide
+actor	Contreras, Luis	1941	1979	Zoot Suiter
+actor	Cook Jr., Elisha	1941	1979	The Patron (Dexter)
+actor	Taylor, Dub	1941	1979	Mr. Malcomb
+actor	Tennant, Andy	1941	1979	Babyface
+actor	Thibeau, Jack	1941	1979	Stilwell Aide
+actor	Thompson, Galen	1941	1979	Stilwell Aide
+actor	Verroca, Frankie	1941	1979	USO Nerd
+actor	Voldstad, John	1941	1979	USO Nerd
+actor	Williams, Treat	1941	1979	Cpl. Chuck 'Stretch' Sitarski
+actor	Wolfington, Iggie	1941	1979	Meyer Mishkin
+actor	Zika, Christian	1941	1979	Stevie Douglas
+actor	Rourke, Mickey	1941	1979	Reese
+actor	Rydbeck, Whitney	1941	1979	Daffy
+actor	Scott, Donovan	1941	1979	Kid Sailor
+actor	Shimizu, Hiroshi	1941	1979	Ito
+actor	Silva, Geno	1941	1979	Martinez
+actor	Stack, Robert	1941	1979	Maj. Gen. Joseph W. Stilwell
+actor	Stander, Lionel	1941	1979	Angelo Scioli
+actor	Deezen, Eddie	1941	1979	Herbie Kazlminsky
+actor	Di Cicco, Bobby	1941	1979	Wally Stephens
