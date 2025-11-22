@@ -39,12 +39,87 @@ if (isset($_SESSION['perma_path'])) {
 }
     
 // UPLOAD FUNCTIONS
-function create_table( $data, $b=1, $p=4, $s=4 ) {
-    echo "<table border=$b cellpadding=$p cellspacing=$s>";
-    foreach ($data as $item) {
-        echo "<tr><td align='center'> $item </td></tr>";
+function insertRecord($db, $table, $fields, $stats) {
+    // Build column names and values for SQL
+    $columns = implode(", ", array_keys($fields));
+    $values = implode(", ", array_map(function($v) use ($db) {
+        return "'" . $db->real_escape_string($v) . "'";
+    }, array_values($fields)));
+    // Simple SQL Insert
+    $sql = "INSERT INTO $table ($columns) VALUES ($values)";
+
+    if ($db->query($sql)) {
+        $stats[$table]['success']++;
+    } else {
+        $stats[$table]['fail']++;
+        echo "SQL Error on $table: " . $db->error . "<br/>";
     }
-    echo "</table><p>";
+
+    return $stats;
+}
+
+function insertMovieLine($db, $parts, $stats) {
+    if (count($parts) >= 3) {
+        $fields = ['name' => $parts[1], 'year' => $parts[2]];
+        $stats = insertRecord($db, 'movies', $fields, $stats);
+    } else {
+        $stats['bad_lines']++;
+    }
+    return $stats;
+}
+
+function insertDirectorLine($db, $parts, $stats) {
+    if (count($parts) >= 4) {
+        // Update directors
+        $stats = insertRecord($db, 'directors', ['name' => $parts[1]], $stats);
+        // Also need to update directed_by
+        $stats = insertRecord($db, 'directed_by', ['movie' => $parts[2], 'year' => $parts[3], 'director' => $parts[1]], $stats);
+    } else {
+        $stats['bad_lines']++;
+    }
+    return $stats;
+}
+
+function insertActorLine($db, $parts, $stats) {
+    if (count($parts) >= 5) {
+        // Check gender
+        $gender = strtolower($parts[0]) === 'actor' ? 'Male' : 'Female';
+        // Update actors
+        $stats = insertRecord($db, 'actors', ['name' => $parts[1], 'gender' => $gender], $stats);
+        // Also need to update performed_in
+        $stats = insertRecord($db, 'performed_in', ['actor' => $parts[1], 'movie' => $parts[2], 'year' => $parts[3], 'role' => $parts[4]], $stats);
+    } else {
+        $stats['bad_lines']++;
+    }
+    return $stats;
+}
+    
+function parseAndInsertFile($db, $filename, $stats) {
+    $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
+    foreach ($lines as $line) {
+        $stats['total_lines']++;
+        $parts = array_map('trim', explode("\t", $line));
+        $type = strtolower($parts[0] ?? '');
+
+        switch ($type) {
+            case 'movie':
+                $stats = insertMovieLine($db, $parts, $stats);
+                break;
+            case 'director':
+                $stats = insertDirectorLine($db, $parts, $stats);
+                break;
+            case 'actor':
+            case 'actress':
+                $stats = insertActorLine($db, $parts, $stats);
+                break;
+            default:
+                $stats['bad_lines']++;
+                break;
+        }
+    }
+
+    return $stats;
 }
     
 // INITIATE CONNECTION   
@@ -76,12 +151,34 @@ else {
     }
     
     // READ & DISPLAY FILE CONTENTS
+    
     if ($okay){
         echo 'File uploaded successfully';
-        $file = fopen ( $filename, 'r' );
-        $fileContents = nl2br ( fread ( $file, filesize( $filename )));
-        fclose( $file );
-        echo "<hr/> $fileContents <hr/>";
+        
+        // Prepare stat tracking
+        $stats = [
+            'movies' => ['success' => 0, 'fail' => 0],
+            'directors' => ['success' => 0, 'fail' => 0],
+            'actors' => ['success' => 0, 'fail' => 0],
+            'directed_by' => ['success' => 0, 'fail' => 0],
+            'performed_in' => ['success' => 0, 'fail' => 0],
+            'total_lines' => 0,
+            'bad_lines' => 0
+        ];
+        
+        // Do all the server and SQL stuff
+        $stats = parseAndInsertFile($db, $filename, $stats);
+        
+        
+        // Display information
+        echo "<h4>Upload Statistics:</h4>";
+        echo "Total lines processed: {$stats['total_lines']}<br/>";
+        echo "Malformed lines: {$stats['bad_lines']}<br/>";
+        echo "Movies inserted: {$stats['movies']['success']}, Failed: {$stats['movies']['fail']}<br/>";
+        echo "Directors inserted: {$stats['directors']['success']}, Failed: {$stats['directors']['fail']}<br/>";
+        echo "Actors inserted: {$stats['actors']['success']}, Failed: {$stats['actors']['fail']}<br/>";
+        echo "Directed_by inserted: {$stats['directed_by']['success']}, Failed: {$stats['directed_by']['fail']}<br/>";
+        echo "Performed_in inserted: {$stats['performed_in']['success']}, Failed: {$stats['performed_in']['fail']}<br/>";
     }
     
     
