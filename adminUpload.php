@@ -46,13 +46,23 @@ function insertRecord($db, $table, $fields, $stats) {
         return "'" . $db->real_escape_string($v) . "'";
     }, array_values($fields)));
     // Simple SQL Insert
-    $sql = "INSERT INTO $table ($columns) VALUES ($values)";
+    //$sql = "INSERT INTO $table ($columns) VALUES ($values)";
+    // Ignore duplicates
+    $sql = "INSERT IGNORE INTO $table ($columns) VALUES ($values)";
 
     if ($db->query($sql)) {
-        $stats[$table]['success']++;
+        // Check affected rows to see if an insert actually happened
+        if ($db->affected_rows > 0) {
+            $stats[$table]['success']++;
+            // Track last inserted record
+            $stats[$table]['last_inserted'] = $fields;
+        } else {
+            // Record was a duplicate
+            $stats[$table]['fail']++;
+        }
     } else {
         $stats[$table]['fail']++;
-        echo "SQL Error on $table: " . $db->error . "<br/>";
+        echo "Error inserting into $table: " . $db->error . "<br/>";
     }
 
     return $stats;
@@ -157,32 +167,37 @@ else {
         
         // Prepare stat tracking
         $stats = [
-            'movies' => ['success' => 0, 'fail' => 0],
-            'directors' => ['success' => 0, 'fail' => 0],
-            'actors' => ['success' => 0, 'fail' => 0],
-            'directed_by' => ['success' => 0, 'fail' => 0],
-            'performed_in' => ['success' => 0, 'fail' => 0],
+            'movies' => ['success' => 0, 'fail' => 0, 'last_inserted' => null],
+            'directors' => ['success' => 0, 'fail' => 0, 'last_inserted' => null],
+            'actors' => ['success' => 0, 'fail' => 0, 'last_inserted' => null],
+            'directed_by' => ['success' => 0, 'fail' => 0, 'last_inserted' => null],
+            'performed_in' => ['success' => 0, 'fail' => 0, 'last_inserted' => null],
             'total_lines' => 0,
-            'bad_lines' => 0
+            'malformed_lines' => 0
         ];
-        
         // Do all the server and SQL stuff
         $stats = parseAndInsertFile($db, $filename, $stats);
+        // Finish stat compilation
         $total_movies = $stats['movies']['success'] + $stats['movies']['fail'];
         $total_actors = $stats['actors']['success'] + $stats['actors']['fail'];
         $total_directors = $stats['directors']['success'] + $stats['directors']['fail'];
         $total_directed_by = $stats['directed_by']['success'] + $stats['directed_by']['fail'];
         $total_performed_in = $stats['performed_in']['success'] + $stats['performed_in']['fail'];
+        $last_movie = $stats['movies']['last_inserted']['name'];
+        $last_actor = $stats['actors']['last_inserted']['name'];
+        $last_director = $stats['directors']['last_inserted']['name'];
+        $last_directed_by = $stats['directed_by']['last_inserted']['movie'] . '/' . $stats['directed_by']['last_inserted']['director'];
+        $last_performed_in = $stats['performed_in']['last_inserted']['movie'] . '/' .  $stats['performed_in']['last_inserted']['actor'] . '/' . $stats['performed_in']['last_inserted']['role'];
         
         
         // Display information
         echo "
         <ul>
-            <li>Added <b>{$stats['movies']['success']}</b> movies out of {$total_movies}  movie records ({$stats['movies']['fail']} failures) [Last added: ]</li>
-            <li>Added <b>{$stats['actors']['success']}</b> actors out of {$total_actors}  actor records ({$stats['actors']['fail']} failures) [Last added: ]</li>
-            <li>Added <b>{$stats['directors']['success']}</b> directors out of {$total_directors}  movie records ({$stats['directors']['fail']} failures) [Last added: ]</li>
-            <li>Added <b>{$stats['directed_by']['success']}</b> directions out of {$total_directed_by}  movie/director records ({$stats['directed_by']['fail']} failures) [Last added: ]</li>
-            <li>Added <b>{$stats['performed_in']['success']}</b> performances out of {$total_performed_in}  actor/movie/role records ({$stats['performed_in']['fail']} failures) [Last added: ]</li>
+            <li>Added <b>{$stats['movies']['success']}</b> movies out of {$total_movies}  movie records ({$stats['movies']['fail']} failures) [Last added: <i>{$last_movie}</i>]</li>
+            <li>Added <b>{$stats['actors']['success']}</b> actors out of {$total_actors}  actor records ({$stats['actors']['fail']} failures) [Last added: <i>{$last_actor}</i>]</li>
+            <li>Added <b>{$stats['directors']['success']}</b> directors out of {$total_directors}  movie records ({$stats['directors']['fail']} failures) [Last added: <i>{$last_director}</i>]</li>
+            <li>Added <b>{$stats['directed_by']['success']}</b> directions out of {$total_directed_by}  movie/director records ({$stats['directed_by']['fail']} failures) [Last added: <i>{$last_directed_by}</i>]</li>
+            <li>Added <b>{$stats['performed_in']['success']}</b> performances out of {$total_performed_in}  actor/movie/role records ({$stats['performed_in']['fail']} failures) [Last added: <i>{$last_performed_in}</i>]</li>
             
         </ul>";
     }
