@@ -56,7 +56,7 @@ try {
     $db = new mysqli( 'localhost', 'uMoviesAdmin', $password, 'umovies' );
 
     echo "<h3>Uploading Data File</h3>";
-    echo "<form enctype='multipart/form-data' action='adminUpload.php' method='post' onsubmit='verify(this);'>
+    echo "<form enctype='multipart/form-data' action='adminUpload.php' method='post' onsubmit='return verify(this);'>
         <input type='file' id='uploaded' name='uploaded' size='30' />
         <input type='submit' value='Upload' />
 
