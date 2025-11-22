@@ -11,7 +11,7 @@
 
 <div id="links">
 <a href="./">Home<span> Access the database of movies, actors and directors. Free to all!</span></a>
-<a href="admin.html">Administrator<span> Administrator access. Password required.</span></a>
+<a href="admin.php">Administrator<span> Administrator access. Password required.</span></a>
 </div>
 
 

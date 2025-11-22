@@ -8,10 +8,14 @@
 </style>
 </head>
 <body>
-
+<?php
+session_start();
+session_unset();
+session_destroy();
+?>
 <div id="links">
 <a href="./">Home<span> Access the database of movies, actors and directors. Free to all!</span></a>
-<a href="admin.html">Administrator<span> Administrator access. Password required.</span></a>
+<a href="admin.php">Administrator<span> Administrator access. Password required.</span></a>
 </div>
 
 
@@ -24,7 +28,7 @@ Welcome to <em>uMovies</em>, your destination for information on <a href="movies
 <h2>Movie</h2>
 
 <p>
-<?php
+
 @$moviesdb = new mysqli('localhost','uMoviesUser','anonymous','uMovies');
 @$moviesdb->set_charset("utf8");
 

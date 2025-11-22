@@ -21,7 +21,7 @@
 
 <div id="links">
 <a href="./">Home<span> Access the database of movies, actors and directors. Free to all!</span></a>
-<a href="admin.html">Administrator<span> Administrator access. Password required.</span></a>
+<a href="admin.php">Administrator<span> Administrator access. Password required.</span></a>
 </div>
 
 
@@ -37,10 +37,20 @@ Welcome to <em>uMovies</em>, your destination for information on <a href="movies
 <?php
 mysqli_report(MYSQLI_REPORT_ALL ^ MYSQLI_REPORT_STRICT);
 session_start();
-$password = $_POST['password'];
-if (isset($_POST['password'])) {
+
+// Only set session if form submitted
+if (isset($_POST['password']) && $_POST['password'] != '') {
     $_SESSION['perma_pass'] = $_POST['password'];
 }
+
+// If session not set, redirect back to login
+if (!isset($_SESSION['perma_pass'])) {
+    header('Location: admin.html');
+    exit();
+}
+
+// Use the session password for database
+$password = $_SESSION['perma_pass'];
 
 $db = new mysqli( 'localhost', 'uMoviesAdmin', $password, 'umovies' );
 if ($db->connect_errno) {
@@ -53,6 +63,12 @@ else {
         <input type='submit' value='Upload' />
 
     </form>";
+    
+    echo "<h3>Deleting Information</h3>";
+    echo "<form action='adminDelete.php' method='post' onsubmit='return confirm(\"All data will be deleted. Proceed?\");'>
+        <input type='hidden' name='delete_all' value='1' />
+        <input type='submit' value='Delete All' />
+      </form>";
 }
 $db->close();
 ?>

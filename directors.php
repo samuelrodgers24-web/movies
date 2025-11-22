@@ -8,10 +8,16 @@
 </style>
 </head>
 <body>
-
+<?php
+session_start();
+if (isset($_SESSION['perma_pass'])) {
+    session_unset();
+    session_destroy();
+}
+?>
 <div id="links">
 <a href="./">Home<span> Access the database of movies, actors and directors. Free to all!</span></a>
-<a href="admin.html">Administrator<span> Administrator access. Password required.</span></a>
+<a href="admin.php">Administrator<span> Administrator access. Password required.</span></a>
 </div>
 
 
@@ -25,6 +31,11 @@ Welcome to <em>uMovies</em>, your destination for information on <a href="movies
 
 <p>
 <?php
+session_start();
+if (isset($_SESSION['perma_pass'])) {
+    session_unset();    // remove all session variables
+    session_destroy();  // destroy the session
+}
 @$moviesdb = new mysqli('localhost','uMoviesUser','anonymous','uMovies');
 @$moviesdb->set_charset("utf8");
 
