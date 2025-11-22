@@ -1,0 +1,59 @@
+movie	12 Years a Slave	2013
+director	McQueen, Steve	12 Years a Slave	2013
+actress	Nyong'o, Lupita	12 Years a Slave	2013	Patsey
+actress	Oduye, Adepero	12 Years a Slave	2013	Eliza
+actress	Paulson, Sarah	12 Years a Slave	2013	Mistress Epps
+actress	Tyler, Deneen	12 Years a Slave	2013	Phebe
+actress	Tyler, Devyn A.	12 Years a Slave	2013	Margaret Northup (adult)
+actress	Wallis, Quvenzhané	12 Years a Slave	2013	Margaret Northup
+actress	Woodard, Alfre	12 Years a Slave	2013	Mistress Shaw
+actress	Reid, Storm	12 Years a Slave	2013	Emily
+actress	Scott, Kelsey	12 Years a Slave	2013	Anne Northup
+actress	Bennett, Liza J.	12 Years a Slave	2013	Mistress Ford
+actress	Chapman, Topsy	12 Years a Slave	2013	Slave Spiritual Singer 1
+actress	Collins, Nicole	12 Years a Slave	2013	Rachel
+actress	Dyke, Ashley	12 Years a Slave	2013	Anna
+actress	Fleming-Alvarez, Vivian	12 Years a Slave	2013	Mulatto Woman
+actor	Dylan, Andy	12 Years a Slave	2013	Treach
+actor	Ejiofor, Chiwetel	12 Years a Slave	2013	Solomon Northup
+actor	Evans, Devin Maurice	12 Years a Slave	2013	Slave Spiritual Singer 2
+actor	Macaulay, Marc	12 Years a Slave	2013	Captain
+actor	Evermore, J.D.	12 Years a Slave	2013	Chapin
+actor	Mackey Jr., Mister	12 Years a Slave	2013	Randall
+actor	Fassbender, Michael	12 Years a Slave	2013	Edwin Epps
+actor	McConnell, John	12 Years a Slave	2013	Jonus Ray
+actor	Fuqua, Dudley	12 Years a Slave	2013	Slave on Epps farm
+actor	McNairy, Scoot	12 Years a Slave	2013	Brown
+actor	Giamatti, Paul	12 Years a Slave	2013	Freeman
+actor	Glover, Anwan	12 Years a Slave	2013	Cape
+actor	Murphy, Thomas Francis	12 Years a Slave	2013	Patroller
+actor	Gravois, Dickie	12 Years a Slave	2013	Overseer
+actor	Griffin, Douglas M.	12 Years a Slave	2013	Sailor
+actor	Pitt, Brad	12 Years a Slave	2013	Bass
+actor	Harris, Mustafa	12 Years a Slave	2013	Sam
+actor	Proctor, Tom	12 Years a Slave	2013	Biddee
+actor	Harrison Jr., Kelvin	12 Years a Slave	2013	Victim 2
+actor	Purnell, Austin	12 Years a Slave	2013	Bob
+actor	Henry, Dwight	12 Years a Slave	2013	Uncle Abram
+actor	Tate, Craig	12 Years a Slave	2013	John
+actor	Holden, Richard	12 Years a Slave	2013	Fitzgerald
+actor	Huguley, Jay	12 Years a Slave	2013	Sheriff
+actor	Victor, James C.	12 Years a Slave	2013	Buyer
+actor	Jackson, Isaiah	12 Years a Slave	2013	Zachary
+actor	Jean-Baptiste, Willo	12 Years a Slave	2013	Margaret's Husband
+actor	Williams, Michael Kenneth	12 Years a Slave	2013	Robert
+actor	Jefferson, Scott Michael	12 Years a Slave	2013	Master Shaw
+actor	Zeigler, Cameron	12 Years a Slave	2013	Alonzo Northup
+actor	Killam, Taran	12 Years a Slave	2013	Hamilton
+actor	Shanks, Andre De'Sean	12 Years a Slave	2013	Victim 1
+actor	Batt, Bryan	12 Years a Slave	2013	Judge Turner
+actor	Steinberg, Rob	12 Years a Slave	2013	Parker
+actor	Bentley, Tony	12 Years a Slave	2013	Mr. Moon
+actor	Berry, Christopher	12 Years a Slave	2013	Burch
+actor	Bright, Gregory	12 Years a Slave	2013	Edward
+actor	Brown, Marcus Lyle	12 Years a Slave	2013	Jasper
+actor	Camp, Bill	12 Years a Slave	2013	Radburn
+actor	Chalk, Chris	12 Years a Slave	2013	Clemens
+actor	Cumberbatch, Benedict	12 Years a Slave	2013	Ford
+actor	Dano, Paul	12 Years a Slave	2013	Tibeats
+actor	Dillahunt, Garret	12 Years a Slave	2013	Armsby

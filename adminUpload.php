@@ -201,7 +201,9 @@ else {
             
         </ul>";
     }
-    
+    echo "<form action='adminMenu.php' method='post'>
+        <input type='submit' value='Back to Admin Menu' />
+      </form>";
     
     // CAN THE FILE BE MOVED TO MY FOLDER
     // not sure what this is for but it was in the slides
