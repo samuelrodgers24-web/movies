@@ -35,7 +35,7 @@ Welcome to <em>uMovies</em>, your destination for information on <a href="movies
 
 <h2>Administrator Access</h2>
 <?php
-mysqli_report(MYSQLI_REPORT_ALL ^ MYSQLI_REPORT_STRICT);
+mysqli_report(MYSQLI_REPORT_STRICT);
 session_start();
 
 // Only set session if form submitted
@@ -51,26 +51,30 @@ if (!isset($_SESSION['perma_pass'])) {
 
 // Use the session password for database
 $password = $_SESSION['perma_pass'];
+try {
 
-$db = new mysqli( 'localhost', 'uMoviesAdmin', $password, 'umovies' );
-if ($db->connect_errno) {
-    echo "<h3>Incorrect Password</h3>";
-}
-else {
+    $db = new mysqli( 'localhost', 'uMoviesAdmin', $password, 'umovies' );
+
     echo "<h3>Uploading Data File</h3>";
     echo "<form enctype='multipart/form-data' action='adminUpload.php' method='post' onsubmit='verify(this);'>
         <input type='file' id='uploaded' name='uploaded' size='30' />
         <input type='submit' value='Upload' />
 
     </form>";
-    
+
     echo "<h3>Deleting Information</h3>";
     echo "<form action='adminDelete.php' method='post' onsubmit='return confirm(\"All data will be deleted. Proceed?\");'>
         <input type='hidden' name='delete_all' value='1' />
         <input type='submit' value='Delete All' />
       </form>";
+
+    $db->close();
+} catch (mysqli_sql_exception $e) {
+    echo "<h3>Incorrect Password</h3>";
+    session_unset();
+    session_destroy();
 }
-$db->close();
+
 ?>
 <p><copyright>Roberto .A. Flores &copy; 2027</copyright></p>
 </div>
