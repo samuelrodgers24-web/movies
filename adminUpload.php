@@ -168,21 +168,28 @@ else {
         
         // Do all the server and SQL stuff
         $stats = parseAndInsertFile($db, $filename, $stats);
+        $total_movies = $stats['movies']['success'] + $stats['movies']['fail'];
+        $total_actors = $stats['actors']['success'] + $stats['actors']['fail'];
+        $total_directors = $stats['directors']['success'] + $stats['directors']['fail'];
+        $total_directed_by = $stats['directed_by']['success'] + $stats['directed_by']['fail'];
+        $total_performed_in = $stats['performed_in']['success'] + $stats['performed_in']['fail'];
         
         
         // Display information
-        echo "<h4>Upload Statistics:</h4>";
-        echo "Total lines processed: {$stats['total_lines']}<br/>";
-        echo "Malformed lines: {$stats['bad_lines']}<br/>";
-        echo "Movies inserted: {$stats['movies']['success']}, Failed: {$stats['movies']['fail']}<br/>";
-        echo "Directors inserted: {$stats['directors']['success']}, Failed: {$stats['directors']['fail']}<br/>";
-        echo "Actors inserted: {$stats['actors']['success']}, Failed: {$stats['actors']['fail']}<br/>";
-        echo "Directed_by inserted: {$stats['directed_by']['success']}, Failed: {$stats['directed_by']['fail']}<br/>";
-        echo "Performed_in inserted: {$stats['performed_in']['success']}, Failed: {$stats['performed_in']['fail']}<br/>";
+        echo "
+        <ul>
+            <li>Added <b>{$stats['movies']['success']}</b> movies out of {$total_movies}  movie records ({$stats['movies']['fail']} failures) [Last added: ]</li>
+            <li>Added <b>{$stats['actors']['success']}</b> actors out of {$total_actors}  actor records ({$stats['actors']['fail']} failures) [Last added: ]</li>
+            <li>Added <b>{$stats['directors']['success']}</b> directors out of {$total_directors}  movie records ({$stats['directors']['fail']} failures) [Last added: ]</li>
+            <li>Added <b>{$stats['directed_by']['success']}</b> directions out of {$total_directed_by}  movie/director records ({$stats['directed_by']['fail']} failures) [Last added: ]</li>
+            <li>Added <b>{$stats['performed_in']['success']}</b> performances out of {$total_performed_in}  actor/movie/role records ({$stats['performed_in']['fail']} failures) [Last added: ]</li>
+            
+        </ul>";
     }
     
     
     // CAN THE FILE BE MOVED TO MY FOLDER
+    // not sure what this is for but it was in the slides
     $filename = 'file.txt';
     if ($okay) {
         if (is_uploaded_file($_FILES[ 'uploaded' ][ 'tmp_name' ])) {
