@@ -62,7 +62,7 @@ else {
         }
         else {
             $gender = $result->fetch_assoc();
-            echo "<span class=\"uActor\">".$gender['gender']."</span><br />";
+            echo "<span class=\"uMovies\">".$gender['gender']."</span><br />";
         }
 
         echo "<strong>Filmography:</strong><br />";

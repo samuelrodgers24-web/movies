@@ -36,7 +36,7 @@ if ($moviesdb->connect_errno) {
     echo '<h3>Database Access Error!</h3>';
 }
 else {
-    $select = 'select * from actors';
+    $select = 'select * from directors';
     if (@$_GET['name'] != "") {
         $select .= ' where name = "'.$_GET['name'].'"';
     }
@@ -45,39 +45,23 @@ else {
     $rows   = $result->num_rows;
 
     if ($rows == 0) {
-        echo "<h3>No Actors to Display</h3>";
+        echo "<h3>No Directors to Display</h3>";
     }
     else {
-        $actor = $result->fetch_assoc();
+        $director = $result->fetch_assoc();
 
-        echo "<h3><span class=\"uTitle\">".$actor['name']."</span></h3>";
-        echo "<strong>Gender: </strong>";
+        echo "<h3><span class=\"uTitle\">".$director['name']."</span></h3>";
 
-        $select = 'select gender from actors where name="'.$actor['name'].'"';
-        $result = $moviesdb->query( $select );
-        $rows   = $result->num_rows;
-
-        if ($rows == 0) {
-            echo "<em>No gender listed</em>";
-        }
-        else {
-            $gender = $result->fetch_assoc();
-            echo "<span class=\"uActor\">".$gender['gender']."</span><br />";
-        }
 
         echo "<strong>Filmography:</strong><br />";
         echo "<table class=\"uMovies\">\n";
         echo "<tr>\n";
         echo "<th></th>";
-        echo "<th><a href=\"actor.php?name=".$actor['name']."&order=movie\">Movie</a></th>";
-        echo "<th><a href=\"actor.php?name=".$actor['name']."&order=role\">Role</a></th>";
+        echo "<th><a href=\"director.php?name=".$director['name']."&order=name\">Name</a></th>";
         echo "<tr>\n";
 
-        $select = 'select * from performed_in where actor="'.$actor['name'].'"';
-        switch (@$_GET['order']) {
-            case 'movie':
-            case 'role': $select .= ' order by '.$_GET['order'];
-        }
+        $select = 'select * from directed_by where director="'.$director['name'].'"';
+        
         $result = $moviesdb->query( $select );
         $rows             = $result->num_rows;
 
@@ -92,7 +76,6 @@ else {
                 echo "<tr class=\"highlight\">";
                 echo "<td>".($i+1)."</td>";
                 echo "<td><a href=\"movie.php?name=".$row['movie']."\" />".$row['movie']."</a></td>";
-                echo "<td>".$row['role']."</td>";
                 echo "</tr>\n";
             }
         }
