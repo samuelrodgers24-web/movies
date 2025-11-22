@@ -163,7 +163,6 @@ else {
     // READ & DISPLAY FILE CONTENTS
     
     if ($okay){
-        echo 'File uploaded successfully';
         
         // Prepare stat tracking
         $stats = [
@@ -183,12 +182,17 @@ else {
         $total_directors = $stats['directors']['success'] + $stats['directors']['fail'];
         $total_directed_by = $stats['directed_by']['success'] + $stats['directed_by']['fail'];
         $total_performed_in = $stats['performed_in']['success'] + $stats['performed_in']['fail'];
-        // TODO add some kind of handling null value for last inserted
-        $last_movie = $stats['movies']['last_inserted']['name'];
-        $last_actor = $stats['actors']['last_inserted']['name'];
-        $last_director = $stats['directors']['last_inserted']['name'];
-        $last_directed_by = $stats['directed_by']['last_inserted']['movie'] . '/' . $stats['directed_by']['last_inserted']['director'];
-        $last_performed_in = $stats['performed_in']['last_inserted']['movie'] . '/' .  $stats['performed_in']['last_inserted']['actor'] . '/' . $stats['performed_in']['last_inserted']['role'];
+        
+        $last_movie = $stats['movies']['last_inserted']['name'] ?? '';
+        $last_actor = $stats['actors']['last_inserted']['name'] ?? '';
+        $last_director = $stats['directors']['last_inserted']['name'] ?? '';
+        $last_directed_by =
+            ($stats['directed_by']['last_inserted']['movie'] ?? '') . '/' .
+            ($stats['directed_by']['last_inserted']['director'] ?? '');
+        $last_performed_in =
+            ($stats['performed_in']['last_inserted']['movie'] ?? '') . '/' .
+            ($stats['performed_in']['last_inserted']['actor'] ?? '') . '/' .
+            ($stats['performed_in']['last_inserted']['role'] ?? '');
         
         
         // Display information
